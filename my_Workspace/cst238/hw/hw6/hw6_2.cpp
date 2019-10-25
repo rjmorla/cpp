@@ -72,7 +72,6 @@ double GpaCalculator::getTotalGradePoints() const {
     double totalGradePoints = 0.0;
     for (int i = 0; i < myCoursesEntered; i++) {
         totalGradePoints += myGradePoints[i] * myCredits[i];
-        cout << "gp: " << totalGradePoints << endl;
     }
     return totalGradePoints;
 }
@@ -81,7 +80,6 @@ int GpaCalculator::getTotalCredits() const {
     int totalCredits = 0;
     for (int i = 0; i < myCoursesEntered; i++) {
         totalCredits += myCredits[i];
-        cout << "credits:" << totalCredits << endl;
     }
     return totalCredits;
 

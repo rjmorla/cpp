@@ -104,3 +104,4 @@ int* makePalindrome(int * a, int & size) {
     delete [] a;
     return x;
 }
+
