@@ -37,3 +37,5 @@ private:
    int myCapacity; // capacity of array
    int * myArray;  // pointer to dynamic array
 }; 
+
+#endif LIST_H
